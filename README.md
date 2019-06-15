@@ -21,4 +21,6 @@ lstm_GridSearchCV - performed GridSearch test
 project_utils - python file contains useful methods: 
   * format_data - function formatting 'original' data in performed dataset
   * prepare_data - reshapes data and make standardization. It returns feature 3D numpy array X and 2D labels array Y
-  * augmentation - augments data - 
+  * augmentation - augments data - There are two methods: 
+      1) first, based on scientific work: Ch. Bergmeir, R.J. Hyndman, J. M. Benitez "Bagging Exponential Smoothing Methods using STL  Decomposition and Box-Cox Transformation" and assumes use these 3 tools (MBB bootstrap, seasonal decomposition and Yeo-Johnson Transformation) on single timeseries.
+      2) second method it's a simple technique: I generate a new sequence based on the noise (from normal distribution) of the original sequence. Standard deviation was selected separately for each measurement. 
