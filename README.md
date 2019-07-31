@@ -4,7 +4,7 @@ in the laboratory of the Wrocław University of Science and Technology (PL).
 Project is in the initial phase, requires further improvements based on a larger number of measurements.
 
 
-This project contains LSTM models created on personally collected dataset (156 measurements), based on sensors connected to mini-excavator.
+This project contains LSTM models created on personally collected dataset (156 measurement sessions), based on sensors connected to mini-excavator.
 The regression model predicts weight in the bucket excavator. 
 Measurements refers to pressure in the boom cylinder (upper and lower), actuators displacement and hydraulic oil temperature. 
 Generally there are 6 features: 
