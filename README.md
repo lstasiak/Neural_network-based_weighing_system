@@ -1,5 +1,5 @@
 # Neural_network-based_weighing_system
-Neural network-based payload determination for moving excavator it's a laboratory project based on research on the mini excavator
+Neural network-based payload determination for moving excavator is a laboratory project based on research on the mini excavator
 in the laboratory of the Wrocław University of Science and Technology (PL). 
 Project is in the initial phase, requires further improvements based on a larger number of measurements.
 
