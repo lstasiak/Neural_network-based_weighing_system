@@ -14,7 +14,7 @@ Generally there are 6 features:
   - displacement the tool excavator (x3)
   - oil temperature (T)
 
-Project contains following files:
+# Project contains following files:
 lstm_main_data_test - model trained on basic dataset (without data augmentation or feature selection)
 lstm_augmentation_test - model trained on augmented dataset
 lstm_GridSearchCV - performed GridSearch test
