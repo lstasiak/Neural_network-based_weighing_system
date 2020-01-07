@@ -6,6 +6,10 @@ Project is in the initial phase, requires further improvements based on a larger
 This project contains LSTM models created on personally collected dataset (156 measurement sessions), based on sensors connected to mini-excavator.
 The regression model predicts weight in the bucket excavator. 
 Measurements refers to pressure in the boom cylinder (upper and lower), actuators displacement and hydraulic oil temperature. 
+
+Measurement stand and test facility: 
+![measurement_object](all_plots/koparka.jpg)
+
 ###### Generally there are 6 features: 
   - upper (p1) and lower(p2) pressure in the boom cylinder
   - displacement the boom actuator (x1)
