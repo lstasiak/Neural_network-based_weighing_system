@@ -31,5 +31,5 @@ Measurements refers to pressure in the boom cylinder (upper and lower), actuator
       1) first, based on scientific work: Ch. Bergmeir, R.J. Hyndman, J. M. Benitez *"Bagging Exponential Smoothing Methods using STL  Decomposition and Box-Cox Transformation"* and assumes use these 3 tools (MBB bootstrap, seasonal decomposition and Yeo-Johnson Transformation) on single timeseries.
       2) second method it's a simple technique: I generate a new sequence based on the noise (from normal distribution) of the original sequence. Standard deviation has been determined separately for each measurement. 
 
-**Results: Example of mass predictions on the basic (not augmented) dataset **
+**Results: Example of mass predictions on the basic (not augmented) dataset**
 ![predictions](all_plots/predictions_test_dane156.svg)
