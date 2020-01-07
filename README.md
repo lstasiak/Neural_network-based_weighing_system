@@ -17,8 +17,8 @@ Measurements refers to pressure in the boom cylinder (upper and lower), actuator
   - displacement the tool excavator (x3)
   - oil temperature (T)
   
-**Example: averaged pressure signal waveform for a sample mass value, i.e. 0kg with confidence interval**
-![measurement_example_01](all_plots/x1_0.svg)
+**Example of measurements: averaged pressure signal waveform for a sample mass value with confidence interval**
+![measurement_example_01](all_plots/subplot01.svg)
 
 ###### Project contains following files:
 1. `lstm_main_data_test` - model trained on basic dataset (without data augmentation or feature selection)
@@ -30,3 +30,6 @@ Measurements refers to pressure in the boom cylinder (upper and lower), actuator
   * augmentation - augments data - There are two methods: 
       1) first, based on scientific work: Ch. Bergmeir, R.J. Hyndman, J. M. Benitez *"Bagging Exponential Smoothing Methods using STL  Decomposition and Box-Cox Transformation"* and assumes use these 3 tools (MBB bootstrap, seasonal decomposition and Yeo-Johnson Transformation) on single timeseries.
       2) second method it's a simple technique: I generate a new sequence based on the noise (from normal distribution) of the original sequence. Standard deviation has been determined separately for each measurement. 
+
+###### Results: Example of mass predictions on the basic (not augmented) dataset 
+![predictions](all_plots/predictions_test_dane156.svg)
