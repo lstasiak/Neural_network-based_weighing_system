@@ -1,4 +1,4 @@
-# Neural_network-based_weighing_system
+# Neural network-based weighing system
 Neural network-based payload determination for moving excavator is a laboratory project based on research on the mini excavator
 in the laboratory of the Wrocław University of Science and Technology (PL). 
 Project is in the initial phase, requires further improvements based on a larger number of measurements.
@@ -7,7 +7,7 @@ This project contains LSTM models created on personally collected dataset (156 m
 The regression model predicts weight in the bucket excavator. 
 Measurements refers to pressure in the boom cylinder (upper and lower), actuators displacement and hydraulic oil temperature. 
 
-Measurement stand and test facility: 
+**Measurement stand and test facility:** 
 ![measurement_object](all_plots/koparka.jpg)
 
 ###### Generally there are 6 features: 
@@ -16,6 +16,9 @@ Measurement stand and test facility:
   - displacement the excavator arm (x2)
   - displacement the tool excavator (x3)
   - oil temperature (T)
+  
+**Example: averaged pressure signal waveform for a sample mass value, i.e. 0kg with confidence interval**
+![measurement_example_01](all_plots/x1_0.svg)
 
 ###### Project contains following files:
 1. `lstm_main_data_test` - model trained on basic dataset (without data augmentation or feature selection)
