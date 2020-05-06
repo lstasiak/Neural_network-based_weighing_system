@@ -33,8 +33,8 @@ Measurements refers to pressure in the boom cylinder (upper and lower), actuator
 
 **Results: Example of mass predictions on the basic (not augmented) dataset**
 Label description (Eng.):
-Y-axis: mass of material transported in a bucket
-X-axis: number of prediction
-Red-color series: predicted values
-Black-color series: validation values
+  - Y-axis: mass of material transported in a bucket
+  - X-axis: number of prediction
+  - Red-color series: predicted values
+  - Black-color series: validation values
 ![predictions](all_plots/predictions_test_dane156.svg)
