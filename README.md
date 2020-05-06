@@ -12,9 +12,9 @@ Measurements refers to pressure in the boom cylinder (upper and lower), actuator
 
 ###### Generally there are 6 features: 
   - upper (p1) and lower(p2) pressure in the boom cylinder
-  - displacement the boom actuator (x1)
-  - displacement the excavator arm (x2)
-  - displacement the tool excavator (x3)
+  - displacement of the boom actuator (x1)
+  - displacement of the excavator arm (x2)
+  - displacement of the excavator bucket (x3)
   - oil temperature (T)
   
 **Example of measurements: averaged pressure signal waveform for a sample mass value with confidence interval**
