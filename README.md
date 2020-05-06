@@ -17,7 +17,7 @@ Measurements refers to pressure in the boom cylinder (upper and lower), actuator
   - displacement of the excavator bucket (x3)
   - oil temperature (T)
   
-**Example of measurements: averaged pressure signal waveform for a sample mass value with confidence interval**
+**Example of measurements: average pressure signal waveform for a sample mass value with confidence interval (blue) and average displacement of the boom actuator for the weight of the material 13 kg**
 ![measurement_example_01](all_plots/subplot01.svg)
 
 ###### Project contains following files:
@@ -32,4 +32,9 @@ Measurements refers to pressure in the boom cylinder (upper and lower), actuator
       2) second method it's a simple technique: I generate a new sequence based on the noise (from normal distribution) of the original sequence. Standard deviation has been determined separately for each measurement. 
 
 **Results: Example of mass predictions on the basic (not augmented) dataset**
+Label description (Eng.):
+Y-axis: mass of material transported in a bucket
+X-axis: number of prediction
+Red-color series: predicted values
+Black-color series: validation values
 ![predictions](all_plots/predictions_test_dane156.svg)
