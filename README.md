@@ -17,7 +17,7 @@ Measurements refers to pressure in the boom cylinder (upper and lower), actuator
   - displacement of the excavator bucket (x3)
   - oil temperature (T)
   
-**Example of measurements: average pressure signal waveform for a sample mass value with confidence interval (blue) and average displacement of the boom actuator for the weight of the material 13 kg**
+**Example of measurements: average pressure signal waveform for a sample mass value with confidence interval (blue) and average displacement of the boom actuator (red) for the weight of the material equal 0 kg and 13 kg**
 ![measurement_example_01](all_plots/subplot01.svg)
 
 ###### Project contains following files:
